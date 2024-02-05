@@ -73,7 +73,7 @@ on:
           - angel
           - zwrt
   schedule:
-    - cron: 0 21 * * *
+    - cron: 0 17 * * *
 
 env:
   ROOTFS_SCRIPT: compile-kernel/tools/script/armbian_rootfs.sh
