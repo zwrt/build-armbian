@@ -25,3 +25,4 @@ git clone https://github.com/ophub/amlogic-s9xxx-armbian && mvdir amlogic-s9xxx-
 wget -O ./action.yml https://raw.githubusercontent.com/ophub/amlogic-s9xxx-armbian/main/action.yml
 sed -i 's/default: "ophub/default: "zwrt/g' ./action.yml
 sed -i 's/default: "-ophub"/default: ""/g' ./action.yml
+sed -i '18s/"all"/"s905d"/g' ./action.yml
